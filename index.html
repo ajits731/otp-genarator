@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <title>OTP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/custom.css"/>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		
+		<!--FontAwesome Icons -->
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+		<link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <!-- remember, jQuery is completely optional -->
+  
+</head>
+
+<body>
+<!--Hero
+		============================================= -->
+			<section id="particles">
+			<div>
+			  <div id="intro">
+			    <h1>One-Time Password</h1>
+			    <p>One Time Password(OTP) is yours to generate now!<br>
+			Choose the contact below and send the OTP anytime.</p>
+			<a class="btn" data-toggle="modal" data-target="#myModal2">Try it yourself!</a>
+			  </div>
+			</div>
+			</section>
+
+
+<!--Contact List
+		============================================= -->
+		<section id="contacts">
+		   <div class="container">
+			  <div class="row toptext">
+			  	<div class="col-sm-12">
+			  		<h2>Here's the list of contacts you can send <br>OTP to, choose yours.</h2>
+			  	</div>
+			  </div>
+				<div class="row">
+				  <div class="col-sm-12 contacts_list">
+
+				  </div>	
+				</div>
+				<br>
+				<div class="row">
+				  <div class="col-sm-4 col-sm-offset-4 full">
+						<a href="contacts.html" class="btn">Didn't find it?Check here!</a>
+				  </div>
+				</div>	
+			 </div>
+		</section>
+
+<!--LIST OF MESSAGES
+		============================================= -->		
+		<section id="mess">
+		  <div class="container">
+		  <div class="row toptext">
+			  	<div class="col-sm-12">
+			  		<h2>Here's the list of contacts to whom the<br>OTP has been sent.</h2>
+			  	</div>
+			<div class="row">
+				<div class="col-sm-12 contact_message">
+					
+				</div>
+			</div>
+			<br>
+			<div class="row">
+			  <div class="col-sm-4 col-sm-offset-4 fullp">
+				  <a href="message.html" class="btn">Didn't find it?Check here!</a>
+			   </div>
+			</div>
+		  </div>
+		</section>
+		 <!--MODAL
+    ============================================= -->
+    <div class="modal fade" id="myModal2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel"><i class="fa fa-envelope"></i> Send OTP here:</h4>
+          </div> <!--modal-header-->
+          
+          <div class="modal-body">
+            <p>Simply enter your contact n	umber and hit send! You'll get the OTP within seconds!</p>
+            
+            <form class="form-inline" role="form">
+              <div class="form-group">
+                <label class="mno" for="name">Mobile No.:</label>
+                  <input class="form-control" id="inputPhone" maxlength=
+            "3" name="phone" required="required" size="3" title="" type="tel"
+            value="">
+                </div>
+              
+              <div class="form-group">
+                  <label class="comment" for="comment">Message:</label>
+                  <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div> <!--form-group-->
+              <input type="submit" class="btn btn-danger" value="Send!">
+            </form>
+            
+            <hr>
+            
+            <p><small>*By providing your number you agree to the T&amp;C of the company.</small></p>
+          </div> <!--modal-body-->
+        </div> <!--modal content-->
+      </div> <!--modal dialog-->
+    </div> <!--modal-->
+        
+<!--==========Footer============================================= -->
+        <footer>
+			<div class="container">
+				<div>
+					
+				</div>
+		</footer>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type='text/javascript' src='assets/js/jquery.particleground.js'></script>
+  <script type='text/javascript' src='assets/js/main.js'></script>
+</body>
+</html>

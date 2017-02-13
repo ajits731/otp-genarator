@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <title>OTP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/custom.css"/>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		
+		<!--FontAwesome Icons -->
+		<link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <!-- remember, jQuery is completely optional -->
+  <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
+  <script type='text/javascript' src='assets/js/jquery.particleground.js'></script>
+</head>
+
+<body>
+
+<!--Contact List
+    ============================================= -->
+<section id="particles" class="send_message">
+      <div>
+        <div id="intro">
+          <div class="container">
+     <div class="row coninfo">
+       <div class="col-sm-6 col-offset-sm-3 con">
+         <div class="col-sm-4">
+           <img src="assets/images/nod.jpg">
+         </div>
+         <div class="col-sm-8 concon">
+           <h3>Name:</h3>
+           <h3>Phone:</h3>
+           <a class="btn" data-toggle="modal" data-target="#myModal">Send message</a>
+         </div>
+       </div>
+     </div>
+   </div>
+        </div>
+      </div>
+      </section>
+ 
+  <!--MODAL
+    ============================================= -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel"><i class="fa fa-envelope"></i> Send OTP here:</h4>
+          </div> <!--modal-header-->
+          
+          <div class="modal-body">
+            <p>Simply enter your contact number and hit send! You'll get the OTP within seconds!</p>
+            
+            <form class="form-inline" role="form">
+              <div class="form-group">
+                <label class="mno" for="name">Mobile No.:</label>
+                  <input class="form-control" id="inputPhone" maxlength=
+            "3" name="phone" required="required" size="3" title="" type="tel"
+            value="">
+                </div>
+              
+              <div class="form-group">
+                  <label class="comment" for="comment">Message:</label>
+                  <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div> <!--form-group-->
+              <input type="submit" class="btn btn-danger" value="Send!">
+            </form>
+            
+            <hr>
+            
+            <p><small>*By providing your number you agree to the T&amp;C of the company.</small></p>
+          </div> <!--modal-body-->
+        </div> <!--modal content-->
+      </div> <!--modal dialog-->
+    </div> <!--modal-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/main.js"></script>
+
+</body>
+</html>

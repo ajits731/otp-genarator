@@ -1,0 +1,280 @@
+
+body {
+  line-height: 1.5;
+}
+/*-- To make right white space in mobile --*/
+html,body{
+  width: auto !important;
+}
+
+
+body {
+  
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+/*  line-height: 1.3;
+*/  -webkit-font-smoothing: antialiased;
+/*  margin-left: 0;
+  margin-top:0;
+  margin-right: 0.5px;*/
+}
+
+#particles {
+  min-height: 500px;
+  overflow: hidden;
+  background: #333333;
+  margin-bottom: 0px;
+  padding:0;
+  color: white;
+}
+
+
+#intro {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+}
+#intro h1 {
+  text-transform: uppercase;
+  font-size: 85px;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  text-decoration: bold;
+}
+p {
+  margin: 0 0 30px 0;
+  font-size: 24px;
+}
+#intro .btn {
+      display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #4ba12b;
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: #a1c023;
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+#intro .btn:hover {
+  color: #005544;
+  border-color: #005544;
+}
+
+#contacts{
+  min-height: 300px;
+  background-color:#f8f8f8;
+  background-size: cover;
+  background-position: center;
+  margin-top: -5px;
+  color: #333333;
+  padding-bottom: 50px;
+
+}
+.toptext h2{
+  text-align: center;
+  font-family: 'Raleway';
+  padding-top: 50px;
+  margin-top: -10px;
+
+}
+
+#contacts  {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 10px;
+  list-style: none;
+}
+
+#contacts a{
+  padding-top: 10px;
+  color:#333;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#contacts .btn {
+    color: #005544;
+  border-color: #005544;
+}
+
+#contacts .btn:hover {
+  color: #005544;
+  border-color: #005544;
+}
+
+#mess{
+  min-height: 300px;
+  background-color:#333333;
+  background-size: cover;
+  background-position: center;
+  margin-top: -5px;
+  color: #333333;
+  padding-bottom: 70px;
+  margin-top: -20px;
+  color: #debaba;
+
+}
+#mess ul li {
+  padding-top: 10px;
+  list-style: none;
+   font-family: 'Raleway', sans-serif;
+}
+#mess ul li a{
+  padding-top: 10px;
+  color: #debaba;
+  text-decoration: none;
+  font-size: 20px;
+}
+/*.full{
+
+  margin-left: -30px;
+}*/
+.full .btn{
+  display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    margin-left: -35px
+}
+.fullp .btn{
+  display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+
+}
+#mess .btn:hover {
+  color: #005544;
+  border-color: #005544;
+}
+
+#mess ul{
+   padding-left: 100px;
+}
+
+.form-group{
+  width:45%;
+margin-left: 370px;
+}
+#particles button{
+  color: #333333;
+}
+.form-group .btn-default{
+  color: grey;
+}
+.coninfo img{
+  height: 205px;
+  width: 225px;
+  margin-left: -30px;
+}
+.messcon img{
+   height: 252px;
+  width: 257px;
+  margin-left: -30px;
+}
+.con{
+  border: 2px solid #fff;
+}
+.concon{
+  margin-left: -116px;
+}
+.concon h3{
+  text-align: left;
+  margin-left: 165px;
+}
+.concon .btn{
+  margin-top: 51px;
+margin-left: 274px;
+}
+.comment{
+    height: 50px;  
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    margin-left: -380px;
+}
+#comment{
+  width: 187px;
+height: 63px;
+margin-left: 10px;
+}
+.mno{
+  max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    margin-left:-380px;
+}
+#inputPhone{
+    width:150px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    
+}
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+  }
+  h1::after {
+    height: 8px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  #intro {
+    padding: 0px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h1::after {
+    height: 6px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 28px;
+  }
+  h1::after {
+    height: 4px;
+  }
+}
